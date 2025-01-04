@@ -8,9 +8,6 @@
     "astrojs",
     "astro-template"
   ],
-  "bugs": {
-    "url": "https://github.com/UXCorpRangel/portfolios-dev/issues"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/barrientossjoel/Portfoliov2"
@@ -56,7 +53,11 @@
     "astro-seo-schema": "5.0.0",
     "astro-sitemap": "1.0.0",
     "astro-tunnel": "0.1.6",
+    "chalk": "^4.1.2",
+    "get-stream": "^9.0.1",
     "i18next": "^23.16.8",
+    "minimatch": "^10.0.1",
+    "package": "^1.0.1",
     "sanitize.css": "13.0.0",
     "schema-dts": "1.1.2",
     "typescript": "5.7.2"
