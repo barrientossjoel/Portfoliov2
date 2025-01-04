@@ -8,10 +8,12 @@ import i18n from '@astrolicious/i18n'
 import sitemap from 'astro-sitemap'
 import playformCompress from '@playform/compress'
 import compressor from 'astro-compressor'
+import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
   site: URL,
+  base: '/JoelBarrientos/',
   server: {
     host: true
   },

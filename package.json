@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "Unicorn Sparkle es la plantilla de portafolio definitiva para desarrolladores que quieren brillar.",
+  "name": "portfoliov2",
+  "description": "Barrientos Joel Portfolio",
   "keywords": [
     "portfolio",
     "astro",
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/UXCorpRangel/portfolios-dev.git"
+    "url": "https://github.com/barrientossjoel/Portfoliov2"
   },
   "license": "MIT",
-  "author": "UXCorpRangel - Felix Icaza <fx.joliett17@gmail.com>",
+  "author": "Barrientos Joel",
   "type": "module",
   "scripts": {
     "astro": "astro",
@@ -24,7 +24,8 @@
     "dev": "astro dev",
     "prepare": "husky",
     "preview": "astro preview",
-    "start": "astro dev"
+    "start": "astro dev",
+    "deploy": "astro build && gh-pages -d dist"
   },
   "lint-staged": {
     "./**/*.{js,mjs,cjs}": [
@@ -55,7 +56,7 @@
     "astro-seo-schema": "5.0.0",
     "astro-sitemap": "1.0.0",
     "astro-tunnel": "0.1.6",
-    "i18next": "24.2.0",
+    "i18next": "^23.16.8",
     "sanitize.css": "13.0.0",
     "schema-dts": "1.1.2",
     "typescript": "5.7.2"
@@ -74,6 +75,7 @@
     "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.1.1",
+    "gh-pages": "^6.3.0",
     "husky": "9.1.7",
     "lint-staged": "15.3.0",
     "prettier": "3.4.2",
