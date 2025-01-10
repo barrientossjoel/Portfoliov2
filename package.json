@@ -25,21 +25,21 @@
     "deploy": "astro build && gh-pages -d dist"
   },
   "lint-staged": {
-    "./**/*.{js,mjs,cjs}": [
+    "src/./**/*.{js,mjs,cjs}": [
       "eslint --cache --fix .js,.mjs,.cjs ./",
       "prettier --cache --write \"./**/*.{js,mjs,cjs}\""
     ],
-    "./**/*.ts": [
+    "src/./**/*.ts": [
       "eslint --cache --fix .ts ./",
       "prettier --cache --write \"./**/*.ts\""
     ],
-    "./src/**/*.astro": [
+    "src/./src/**/*.astro": [
       "eslint --cache --fix .astro ./src/",
       "prettier --cache --write \"./src/**/*.astro\""
     ],
     "./src/**/*.css": "prettier --cache --write \"./src/**/*.css\"",
-    "./**/*.json": "prettier --cache --write \"./**/*.json\"",
-    "./**/*.yml": "prettier --cache --write \"./**/*.yml\""
+    "src/./**/*.json": "prettier --cache --write \"./**/*.json\"",
+    "src/./**/*.yml": "prettier --cache --write \"./**/*.yml\""
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",
