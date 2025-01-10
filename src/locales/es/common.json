@@ -21,7 +21,7 @@
   ],
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Joel Barrientos!",
+    "title": "¡Hola, soy Joel Barrientos!",
     "job_title": "<strong>Desarrollador Web Frontend</strong> de Buenos Aires, Argentina.",
     "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js.",
     "cta": "Contactame"
@@ -51,7 +51,7 @@
     "projects": [
       {
         "title": "Node Vault",
-        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
+        "description": "NodeVault is a free, cross-platform note-taking application designed for simplicity and efficiency.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
         "code": "Código",

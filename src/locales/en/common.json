@@ -50,8 +50,8 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
+        "title": "Node Vault",
+        "description": "NodeVault is a free, cross-platform note-taking application designed for simplicity and efficiency..",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
         "code": "Code",
