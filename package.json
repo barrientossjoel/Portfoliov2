@@ -25,21 +25,21 @@
     "deploy": "astro build && gh-pages -d dist"
   },
   "lint-staged": {
-    "./**/*.{js,mjs,cjs}": [
-      "eslint --cache --fix --ext .js,.mjs,.cjs ./",
+    "src/./**/*.{js,mjs,cjs}": [
+      "eslint --cache --fix .js,.mjs,.cjs ./",
       "prettier --cache --write \"./**/*.{js,mjs,cjs}\""
     ],
-    "./**/*.ts": [
-      "eslint --cache --fix --ext .ts ./",
+    "src/./**/*.ts": [
+      "eslint --cache --fix .ts ./",
       "prettier --cache --write \"./**/*.ts\""
     ],
-    "./src/**/*.astro": [
-      "eslint --cache --fix --ext .astro ./src/",
+    "src/./src/**/*.astro": [
+      "eslint --cache --fix .astro ./src/",
       "prettier --cache --write \"./src/**/*.astro\""
     ],
     "./src/**/*.css": "prettier --cache --write \"./src/**/*.css\"",
-    "./**/*.json": "prettier --cache --write \"./**/*.json\"",
-    "./**/*.yml": "prettier --cache --write \"./**/*.yml\""
+    "src/./**/*.json": "prettier --cache --write \"./**/*.json\"",
+    "src/./**/*.yml": "prettier --cache --write \"./**/*.yml\""
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",
@@ -57,17 +57,19 @@
     "get-stream": "^9.0.1",
     "i18next": "^23.16.8",
     "minimatch": "^10.0.1",
+    "module": "^1.2.5",
     "package": "^1.0.1",
     "sanitize.css": "13.0.0",
     "schema-dts": "1.1.2",
     "typescript": "5.7.2"
   },
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
     "@ianvs/prettier-plugin-sort-imports": "4.4.0",
     "@typescript-eslint/eslint-plugin": "7.0.1",
     "@typescript-eslint/parser": "7.0.0",
     "astro-eslint-parser": "1.1.0",
-    "eslint": "8.57.0",
+    "eslint": "^8.57.0",
     "eslint-config-love": "47.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-standard": "17.1.0",
@@ -77,6 +79,7 @@
     "eslint-plugin-n": "16.6.2",
     "eslint-plugin-promise": "6.1.1",
     "gh-pages": "^6.3.0",
+    "globals": "^15.14.0",
     "husky": "9.1.7",
     "lint-staged": "15.3.0",
     "prettier": "3.4.2",

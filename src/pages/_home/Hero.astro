@@ -26,8 +26,8 @@ const {
       <p>{description}</p>
     </section>
     <section class="button-container">
-      <Button class="filled" href="#">{cta}</Button>
-      <Button href="#">
+      <Button class="filled" href="mailto:Barrientoss.joel@gmail.com">{cta}</Button>
+      <Button href="https://www.linkedin.com/in/barrientossjoel/">
         <Icon name="linkedin" size={24} />
         <span>LinkedIn</span>
       </Button>
@@ -148,7 +148,7 @@ const {
 </style>
 
 <script>
-  import { StarField } from '@scripts/starfield'
+  import { StarField } from '@scripts/starfield.ts'
 
   const canvas = document.querySelector('#stars') as HTMLCanvasElement
   new StarField(canvas)
