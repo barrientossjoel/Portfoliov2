@@ -1,15 +1,21 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "jsx": "preserve",
+    "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@data/*": ["src/data/*"],
-      "@images/*": ["src/images/*"],
+      "@styles/*": ["src/styles/*"],
+      "@data/*": ["src/icons/data/*"],
       "@layouts/*": ["src/layouts/*"],
       "@pages/*": ["src/pages/*"],
+      "@components/*": ["src/components/*"],
       "@scripts/*": ["src/scripts/*"],
-      "@styles/*": ["src/styles/*"]
+      "@images/*": ["src/images/*"]
     }
-  }
+  },
+  "include": ["src/**/*.ts", "src/**/*.astro", "src/**/*.tsx", ".astro/**/*.astro/","astro-seo-schema.d.ts"]
 }
