@@ -1,6 +1,6 @@
 {
-  "title": "Desarrollador Web Frontend - Joel Barrientos",
-  "description": "Desarrollador Web Frontend de Buenos Aires, Argentina. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+  "title": "Desarrollador Fullstack - Joel Barrientos",
+  "description": "Desarrollador Fullstack de Buenos Aires, Argentina. Especialista en HTML5, CSS5, JavaScript ES6+ y Node.js.",
   "navbar": [
     {
       "label": "Inicio",
@@ -22,26 +22,26 @@
   "hero": {
     "job_availability": "¡Disponible para trabajar!",
     "title": "¡Hola, soy Joel Barrientos!",
-    "job_title": "<strong>Desarrollador Web Frontend</strong> de Buenos Aires, Argentina.",
+    "job_title": "<strong>Desarrollador Fullstack</strong> de Buenos Aires, Argentina.",
     "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js.",
     "cta": "Contactame"
   },
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Freelance", "Arcadia Interactive"],
+      "jobs_title": ["Data SC", "Arcadia Interactive"],
       "jobs_description": [
         {
-          "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
+          "title": "Desarrollador Fullstack",
+          "time": ["Mar 2023"],
+          "description": "Desarrollo aplicaciones fullstack, combinando tecnologías de front-end como React y TypeScript con soluciones de back-end como Node.js y Firebase. Contribuyo con mis conocimientos en prácticas modernas de desarrollo, optimizando el rendimiento, asegurando la escalabilidad e implementando interfaces receptivas y fáciles de usar.",
           "list": ["Diseño de sitios web", "Optimización de sitios web"]
         },
         {
-          "title": "Desarrollador Web en WordPress",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "Me encargué de desarrollar sitios web en WordPress para clientes de Nicaragua, durante mi tiempo en la agencia aporté mi conocimiento en seguridad web aumentando las medidas y disminuyendo las brechas de seguridad en WordPress, configurando plugins y estableciendo cabeceras HTTP como Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Game Developer",
+          "time": ["May 2022", "Feb 2023"],
+          "description": "Fui responsable del desarrollo de mecánicas y sistemas principales para un RPG de vista cenital. Optimicé la experiencia del jugador mejorando el manejo de controles, implementando comportamientos para NPCs y asegurando transiciones fluidas entre estados del juego.También mejoré la seguridad y el rendimiento del juego configurando la gestión de memoria y carga de recursos, aplicando buenas prácticas en sistemas de guardado y optimizando shaders y físicas para mantener una tasa de cuadros estable.",
+          "list": ["Desarrollo de videojuegos", "Game Design"]
         }
       ]
     }
@@ -51,7 +51,7 @@
     "projects": [
       {
         "title": "Node Vault",
-        "description": "NodeVault is a free, cross-platform note-taking application designed for simplicity and efficiency.",
+        "description": "NodeVault es una aplicación para tomar notas, gestionar tareas y colaborar. Ofrece un espacio para estas funciones en todos los dispositivos.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
         "code": "Código",
@@ -87,10 +87,10 @@
     "contributions": [
       {
         "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "alt": "E-commerce App",
+        "title": "E-commerce App",
+        "description": "En conjunto con varios compañeros de Data SC SOlutions, colaboré en la creación del sitio web para la Store de Bans & Clants.",
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"],
         "repo": "#",
         "repo_label": "Repositorio",
         "commits": "#"
@@ -100,7 +100,7 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"],
         "repo": "#",
         "repo_label": "Repositorio",
         "commits": "#"
@@ -110,7 +110,7 @@
         "alt": "Advanced Periodontics",
         "title": "Advanced Periodontics",
         "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
+        "techs": ["HTML", "CSS", "JavaScript", "PHP"],
         "repo": "#",
         "repo_label": "Repositorio",
         "commits": "#"
@@ -120,7 +120,7 @@
   "about": {
     "title": "Sobre mí",
     "subtitle": "LoremIpusm dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.",
-    "description": "Soy un Desarrollador Fullstack con más de 1 año de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+    "description": "Soy un Desarrollador Fullstack con más de 1 año de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
   },
   "contact": {
     "title": "¿Listo para dar vida a tus ideas?",
