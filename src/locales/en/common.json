@@ -21,7 +21,7 @@
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
+    "title": "Hello I'm Joel Barrientos!",
     "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
     "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
     "cta": "Contact me"
@@ -29,7 +29,7 @@
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": ["Data SC", "Arcadia Interactive"],
       "jobs_description": [
         {
           "title": "Web Frontend Developer",
