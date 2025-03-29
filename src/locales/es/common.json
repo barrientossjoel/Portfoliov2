@@ -33,13 +33,13 @@
       "jobs_description": [
         {
           "title": "Desarrollador Fullstack",
-          "time": ["Mar 2023"],
-          "description": "Desarrollo aplicaciones fullstack, combinando tecnologías de front-end como React y TypeScript con soluciones de back-end como Node.js y Firebase. Contribuyo con mis conocimientos en prácticas modernas de desarrollo, optimizando el rendimiento, asegurando la escalabilidad e implementando interfaces receptivas y fáciles de usar.",
+          "time": ["Mar 2023 - Presente"],
+          "description": "Desarrollo aplicaciones fullstack, combinando tecnologías de front-end como React y con soluciones de back-end como Node.js y Firebase. Contribuyo con mis conocimientos en prácticas modernas de desarrollo, optimizando el rendimiento, asegurando la escalabilidad e implementando interfaces receptivas y fáciles de usar.",
           "list": ["Diseño de sitios web", "Optimización de sitios web"]
         },
         {
           "title": "Game Developer",
-          "time": ["May 2022", "Feb 2023"],
+          "time": ["May 2022 - Feb 2023"],
           "description": "Fui responsable del desarrollo de mecánicas y sistemas principales para un RPG de vista cenital. Optimicé la experiencia del jugador mejorando el manejo de controles, implementando comportamientos para NPCs y asegurando transiciones fluidas entre estados del juego.También mejoré la seguridad y el rendimiento del juego configurando la gestión de memoria y carga de recursos, aplicando buenas prácticas en sistemas de guardado y optimizando shaders y físicas para mantener una tasa de cuadros estable.",
           "list": ["Desarrollo de videojuegos", "Game Design"]
         }
@@ -86,11 +86,11 @@
     "title": "Contribuciones",
     "contributions": [
       {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "E-commerce App",
-        "title": "E-commerce App",
-        "description": "En conjunto con varios compañeros de Data SC SOlutions, colaboré en la creación del sitio web para la Store de Bans & Clants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP"],
+        "src": "/src/images/contributions/data-sc-landing-page.jpg",
+        "alt": "Data SC Landing page",
+        "title": "Data SC Landing page",
+        "description": "En conjunto con varios compañeros, colaboré en la creación del sitio web para la página principal de Data SC Solutions.",
+        "techs": ["HTML", "CSS", "JavaScript", "React"],
         "repo": "#",
         "repo_label": "Repositorio",
         "commits": "#"
