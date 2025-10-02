@@ -1,0 +1,20 @@
+Experiencia laboral 
+    Ajustar fechas de Data SC (Estelar Code)
+    Agregar nueva experiencia
+        Agregar tags
+Proyectos
+    Actualizar Vault y poner foto
+        Arreglar botones de Git y vista previa (agregar esa funcionalidad)
+    Agregar 2 proyectos más
+
+Contribuciones
+    Agregar contribuciones
+    Arreglar tamaño de las cards
+
+Sobre mi
+    Arreglar foto
+
+Footer 
+    Cambiar link botón de mail (que vaya al mail)
+    2025 Joel Barrientos
+    

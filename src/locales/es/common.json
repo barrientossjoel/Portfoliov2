@@ -29,18 +29,24 @@
   "experience": {
     "title": "Experiencia laboral",
     "jobs": {
-      "jobs_title": ["Data SC", "Arcadia Interactive"],
+      "jobs_title": ["Digital Impulse", "Estelar Code", "Arcadia Interactive"],
       "jobs_description": [
         {
+          "title": "Desarrollador Fullstack",
+          "time": ["Oct 2025 - Presente"],
+          "description": "Involucrado en el desarrollo de un sistema de depósito digital y una aplicación web de facturación automática para el sector financiero. Manejo tecnologías como CSS, Javascript, React, Node.js, entre otras. Contribuyo con mis conocimientos en prácticas modernas de desarrollo y mi enfoque completo, optimizando el rendimiento, asegurando la escalabilidad e implementando interfaces receptivas y fáciles de usar.",
+          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+        },
+        {
           "title": "Desarrollador de Software",
-          "time": ["Mar 2023 - Presente"],
+          "time": ["Mar 2023 - Oct 2025"],
           "description": "Desarrollo aplicaciones de Software, combinando tecnologías de front-end como React y con soluciones de back-end como Node.js y Firebase. Contribuyo con mis conocimientos en prácticas modernas de desarrollo, optimizando el rendimiento, asegurando la escalabilidad e implementando interfaces receptivas y fáciles de usar.",
           "list": ["Diseño de sitios web", "Optimización de sitios web"]
         },
         {
           "title": "Game Developer",
           "time": ["May 2022 - Feb 2023"],
-          "description": "Fui responsable del desarrollo de mecánicas y sistemas principales para un RPG de vista cenital. Optimicé la experiencia del jugador mejorando el manejo de controles, implementando comportamientos para NPCs y asegurando transiciones fluidas entre estados del juego.También mejoré la seguridad y el rendimiento del juego configurando la gestión de memoria y carga de recursos, aplicando buenas prácticas en sistemas de guardado y optimizando shaders y físicas para mantener una tasa de cuadros estable.",
+          "description": "Fui responsable del desarrollo de mecánicas y sistemas principales para un RPG de vista cenital. Optimicé la experiencia del jugador mejorando el manejo de controles, implementando comportamientos para NPCs y asegurando transiciones fluidas entre estados del juego.",
           "list": ["Desarrollo de videojuegos", "Game Design"]
         }
       ]
@@ -50,8 +56,8 @@
     "title": "Proyectos",
     "projects": [
       {
-        "title": "Node Vault",
-        "description": "NodeVault es una aplicación para tomar notas, gestionar tareas y colaborar. Ofrece un espacio para estas funciones en todos los dispositivos.",
+        "title": "Vault",
+        "description": "Vault es una aplicación para tomar notas y gestionar tareas. Ofrece un espacio para estas funciones en todos los dispositivos.",
         "image": "/src/images/projects/esteli-buses-project.jpg",
         "techs": ["Astro", "TailwindCSS", "Firebase", "TypeScript"],
         "code": "Código",
