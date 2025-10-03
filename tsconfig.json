@@ -15,7 +15,8 @@
       "@components/*": ["src/components/*"],
       "@scripts/*": ["src/scripts/*"],
       "@images/*": ["src/images/*"]
-    }
+    },
+    "allowImportingTsExtensions": true
   },
-  "include": ["src/**/*.ts", "src/**/*.astro", "src/**/*.tsx", ".astro/**/*.astro/","astro-seo-schema.d.ts"]
+  "include": ["src/**/*.ts", "src/**/*.astro", "src/**/*.tsx", ".astro/**/*.astro/", "astro-seo-schema.d.ts"]
 }
