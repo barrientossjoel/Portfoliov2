@@ -92,9 +92,9 @@
     "title": "Contribuciones",
     "contributions": [
       {
-        "src": "/src/images/contributions/data-sc-landing-page.jpg",
-        "alt": "Data SC Landing page",
-        "title": "Data SC Landing page",
+        "src": "/src/images/contributions/estelarPage.webp",
+        "alt": "Estelar Code Landing page",
+        "title": "Estelar Code Landing page",
         "description": "En conjunto con varios compañeros, colaboré en la creación del sitio web para la página principal de Data SC Solutions.",
         "techs": ["HTML","CSS","JavaScript", "React", "Node.js"],
         "repo": "#",
