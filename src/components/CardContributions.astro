@@ -19,11 +19,11 @@ const { src, alt, title, description, techs, repo, repoLabel, commits } =
   Astro.props;
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
-'/src/images/contributions/*.{jpeg,jpg,png}'
+'/src/images/contributions/*.{jpeg,jpg,png,webp}'
 );
 if (!images[src]) 
   throw new Error(
-    `"${src}" no existe en: "/src/images/contributions/*.{jpeg,jpg,png}"`
+    `"${src}" no existe en: "/src/images/contributions/*.{jpeg,jpg,png,webp}"`
   )
 ---
 
