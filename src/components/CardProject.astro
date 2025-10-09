@@ -42,9 +42,8 @@ if (!images[src])
     <h3><a href="#">{title}</a></h3>
     <div class="badges">
       {
-        techs.map((tech) => {
+        techs.map((tech: string) => {
           const techLower = tech.toLowerCase().replaceAll(' ', '-')
-
           return (
             <span class={`badge-tech ${techLower}`}>
               <Icon name={`techs/${techLower}`} size={24} />

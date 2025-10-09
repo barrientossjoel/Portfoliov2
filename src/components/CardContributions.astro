@@ -3,6 +3,10 @@ import type { ImageMetadata } from 'astro';
 import { Icon } from 'astro-icon/components';
 import { Picture } from 'astro:assets';
 import '@styles/tech-colors.css';
+import NodejsIcon from '~icons/simple-icons/node-dot-js';
+import ReactIcon from '~icons/simple-icons/react';
+import AstroIcon from '~icons/simple-icons/astro';
+
 
 interface Props {
   src: string
@@ -43,10 +47,13 @@ if (!images[src])
   <h3><a href={repo}>{title}</a></h3>
   <p>{description}</p>
   <div class="badges">
-    {techs.map((tech) => {
+    {techs.map((tech: string) => {
       const techLower = tech.toLowerCase().replaceAll(' ', '-');
       return (
         <span class={`badge-tech ${techLower}`}>
+          {techLower === 'node.js' && <NodejsIcon size={16} />}
+          {techLower === 'react' && <ReactIcon size={16} />}
+          {techLower === 'astro' && <AstroIcon size={16} />}
           <Icon name={`techs/${techLower}`} size={16} />
           <span>{tech}</span>
         </span>

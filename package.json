@@ -46,7 +46,6 @@
     "@astrolicious/i18n": "0.6.1",
     "@fontsource-variable/inter": "5.1.0",
     "@playform/compress": "0.1.6",
-    "astro": "^5.14.1",
     "astro-compressor": "1.0.0",
     "astro-icon": "1.1.5",
     "astro-imagetools": "0.9.0",
@@ -60,16 +59,16 @@
     "module": "^1.2.5",
     "package": "^1.0.1",
     "sanitize.css": "13.0.0",
-    "schema-dts": "1.1.2",
-    "sharp": "^0.34.4",
-    "typescript": "5.7.2"
+    "schema-dts": "1.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@ianvs/prettier-plugin-sort-imports": "4.4.0",
+    "@types/node": "^24.6.2",
     "@types/react": "^19.2.0",
     "@typescript-eslint/eslint-plugin": "7.0.1",
     "@typescript-eslint/parser": "7.0.0",
+    "astro": "^5.14.1",
     "astro-eslint-parser": "1.1.0",
     "eslint": "^8.57.0",
     "eslint-config-love": "47.0.0",
@@ -86,6 +85,9 @@
     "lint-staged": "15.3.0",
     "prettier": "3.4.2",
     "prettier-plugin-astro": "0.14.1",
-    "prettier-plugin-tailwindcss": "0.6.6"
+    "prettier-plugin-tailwindcss": "0.6.6",
+    "sharp": "^0.34.4",
+    "typescript": "5.7.2",
+    "unplugin-icons": "^22.4.2"
   }
 }

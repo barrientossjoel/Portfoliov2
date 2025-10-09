@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config'
 import { URL } from './src/data/constants'
 import tunnel from 'astro-tunnel'
 import icon from 'astro-icon'
+import Icons from 'unplugin-icons/vite';
 import { astroImageTools } from 'astro-imagetools'
 import i18n from '@astrolicious/i18n'
 import sitemap from 'astro-sitemap'
@@ -43,6 +44,14 @@ export default defineConfig({
         locales: {
           es: 'es'
         }
+      },
+      vite: {
+        plugins: [
+          Icons({
+            compiler: 'astro',
+            autoInstall: true
+          })
+        ]
       },
       // Remove trailing slash
       serialize(item) {
